@@ -51,3 +51,11 @@ los formularios y el menu.
 
 mini reto 12: en este mini reto agregue el boton de whatsapp, le di los ulimos retoque al css, agregue la etiqueta nuevo en la bicicleta electrica, tamben 
 organice los estilos para que mantuvieran los mismos colores que ya tenia realizados
+
+
+SEMANA DOS 
+
+mini reto1: se ubico el nombres de la empresa a un costado de la pagina y el menu igual se organizo la fluides de la pagina, haciendo que cuando se encoja la panatalla 
+se acomode el contenido que esta dentro de la pagina eso se hixo desde css con el flex-wrap 
+
+mini reto2:

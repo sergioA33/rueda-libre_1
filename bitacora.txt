@@ -1,4 +1,4 @@
-proyecto: rueda libre 
+-----------proyecto: rueda libre----------
 
 en el mini reto 1:
 prepare las carpetas para enmepzar a desarrollar 
@@ -53,9 +53,31 @@ mini reto 12: en este mini reto agregue el boton de whatsapp, le di los ulimos r
 organice los estilos para que mantuvieran los mismos colores que ya tenia realizados
 
 
-SEMANA DOS 
+-------SEMANA DOS----------
 
 mini reto1: se ubico el nombres de la empresa a un costado de la pagina y el menu igual se organizo la fluides de la pagina, haciendo que cuando se encoja la panatalla 
 se acomode el contenido que esta dentro de la pagina eso se hixo desde css con el flex-wrap 
 
-mini reto2:
+mini reto2: Organice la flota de bicicletas usando Grid.agrege tarjetas con fotografias, nombres, descripciones y precios por hora. Utilice columnas que se adaptan
+ automáticamente segun el espacio disponible haciendo que se vea mas fluido a la hora de que la panatlla de reduzca o se visualice en una mas pequeña
+
+ mini reto3: Organice la portada en dos columnas, con el texto a la izquierda y la imagen a la derecha. También cree una galería con tres rutas
+ En la pagina de reservas distribui el formulario y la informacion de contacto en una proporción de 2 a 1. Utilicé Flexbox para colocar los campos de documento 
+ y celular en una misma fila.
+
+ mini reto4: Adapte el sitio para celulares, tabletas y computadores usando el enfoque mobile-first. En celular organice el contenido en una sola columna, 
+ en tabletas y computadores agregue columnas segun el espacio disponible , el encabezado muestra el nombre arriba y el menú debajo en celular
+ En pantallas mas grandes, el nombre y el menú quedan uno al lado del otro,el pie de pagina tambien cambia su distribucion segun el tamaño de pantalla
+la flota muestra una columna en celular, dos en tabletas y tres en computadores. Utilice Grid para organizar las columnas y Flexbox para distribuir elementos en una misma fila
+
+--------problemas resposive y  solucones -----
+La portada se veia apretada en celular, la solucione colocando el texto y la imagen en una sola columna
+Las tarjetas de rutas y bicicletas no se acomodaban bien en pantallas pequeñas. Las organicé con columnas
+que cambian segun el tamaño de pantalla.las tablas de tarifas tenian mucho contenido y se salian del espacio disponible 
+reduje el tamaño de letra y el relleno de las celdas para facilitar su lectura.El menu ocupaba mucho espacio en celular
+lo organice verticalmente y centrado
+
+--------pruebas -------
+Probé el sitio en los tamaños de 360 px, 768 px y 1200 px para revisar su adaptacion a diferentes pantallas.
+
+

@@ -62,7 +62,7 @@ mini reto2: Organice la flota de bicicletas usando Grid.agrege tarjetas con foto
  automáticamente segun el espacio disponible haciendo que se vea mas fluido a la hora de que la panatlla de reduzca o se visualice en una mas pequeña
 
  mini reto3: Organice la portada en dos columnas, con el texto a la izquierda y la imagen a la derecha. También cree una galería con tres rutas
- En la pagina de reservas distribui el formulario y la informacion de contacto en una proporción de 2 a 1. Utilicé Flexbox para colocar los campos de documento 
+ En la pagina de reservas distribui el formulario y la informacion de contacto en una proporción de 2fr y 1fr. Utilicé Flexbox para colocar los campos de documento 
  y celular en una misma fila.
 
  mini reto4: Adapte el sitio para celulares, tabletas y computadores usando el enfoque mobile-first. En celular organice el contenido en una sola columna, 
@@ -80,4 +80,13 @@ lo organice verticalmente y centrado
 --------pruebas -------
 Probé el sitio en los tamaños de 360 px, 768 px y 1200 px para revisar su adaptacion a diferentes pantallas.
 
+mini reto5: me demore aproximadamente 1 hora y 30 minutos realizando la pagina de prueba con bootstrap. organice las siete bicicletas
+utilizando las tarjetas y las clases de bootstrap para distribuirlas en diferentes columnas segun el tamaño de la pantalla. tambien 
+revise que las imagenes cargaran correctamente y probe que se ajustara en diferentes tamaños de panatallas
+con bootstrap pude organizar las tarjetas mas facilmente sin escribir tantas lineas de css. tambien me permitio adaptar las columnas 
+una desventaja es que  senti que tenia menos control sobre algunos detalles del diseño y al principio me costo 
+entender algunas clases ya que es un poco complejo para mi entenderlas y en comparacion con mi codigo anterior,
+bootstrap permite hacer la distribucion de las tarjetas con menos codigo propio, aunque todavia necesito practicar para manejarlo mejor
+ya que es algo nuevo para mi.
 
+Mini reto 6:

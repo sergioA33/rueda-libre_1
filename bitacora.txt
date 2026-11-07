@@ -137,4 +137,15 @@ se reviso la navegacion con el teclado
 se comprobo que los enlaces funcionaran
 se verifico el funcionamiento en inicio, tarifas y reservas
 
-mini reto 10:
+mini reto 10:en este mini reto cambie las tarjetas de bicicletas y rutas para utilizar bootstrap, manteniendo el orden que ya tenian
+tambien agregue un carrusel en la pagina de inicio con tres promociones. coloque las imagenes, los textos y las flechas para cambiar
+entre ellas, configure el cambio automatico de las promociones y despues revise los estilos de css y quite los que ya no estaba utilizando
+       pruebas
+revise que las imagenes cargaran bien
+comprobe que las promociones cambiaran automaticamente
+probe las flechas con el teclado
+revise las paginas en 360, 768 y 1280 pixeles
+comprobe que las tarjetas se vieran bien
+
+mini reto 11:
+

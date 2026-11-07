@@ -11,7 +11,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container py-4">
+        <div class="container py-5">
             <a class="navbar-brand" href="index.html">rueda libre</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="abrir menu">
                 <span class="navbar-toggler-icon"></span>
@@ -32,21 +32,61 @@
         </div>
     </nav>
     </header>
-
     <main>
-        <section class="container my-5">
+        <section class="container my-3">
             <div class="row align-items-center g-4">
                 <div class="col-12 col-md-6">
                     <h2>bienvenidos a rueda libre</h2>
-                    <p>somos un negocio de medellín que alquila bicicletas y ofrece recorridos por la ciudad.</p>
-                    <p>disfruta de nuevas aventuras y conoce nuestra ciudad sobre ruedas.</p>
-                    <a href="paginas/reservas.html" class="btn btn-primary btn-lg">reservar ahora</a>
+        </section>
+        <section class="container my-3">
+            <div id="carruselPromociones" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="img/des.martes.jpg" class="d-block w-100" alt="promocion de martes dos por uno en bicicletas urbanas">
+                        <div class="carousel-caption">
+                            <h5>martes 2x1</h5>
+                            <p>dos por uno en bicicletas urbanas</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/des.electrica.jpg" class="d-block w-100" alt="descuento del veinte por ciento en bicicletas electricas">
+                        <div class="carousel-caption">
+                            <h5>20 % de descuento</h5>
+                            <p>en bicicletas electricas de lunes a jueves</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/cumple.jpg" class="d-block w-100" alt="promocion de recorrido guiado gratis por cumpleaños">
+                        <div class="carousel-caption">
+                            <h5>cumpleaños especial</h5>
+                            <p>si cumples años, el recorrido guiado es gratis</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="img/portada.jpg" alt="bicicletas de rueda libre" class="img-fluid rounded">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselPromociones" data-bs-slide="prev" aria-label="promocion anterior">
+                                 <span class="carousel-control-prev-icon"></span>
+                                  <span class="visually-hidden">anterior</span>
+                           </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselPromociones" data-bs-slide="next" aria-label="promocion siguiente">
+                            <span class="carousel-control-next-icon"></span>
+                             <span class="visually-hidden">siguiente</span>
+                          </button>
             </div>
         </section>
+        <p>somos un negocio de medellín que alquila bicicletas y ofrece recorridos por la ciudad.</p>
+        <p>disfruta de nuevas aventuras y conoce nuestra ciudad sobre ruedas.</p>
+        <a href="paginas/reservas.html" class="btn btn-primary btn-lg">reservar ahora</a>
+        </div>
+        <div class="col-12 col-md-12">
+            <img src="img/portada.jpg" alt="bicicletas de rueda libre" class="img-fluid rounded">
+        </div>
+        </div>
+        </section>
+
         <section>
             <h2>¿quiénes somos?</h2>
             <p>somos un negocio de medellín que alquila bicicletas y ofrece recorridos por la ciudad. <a href="#encuentranos">mira dónde estamos</a>.</p>
@@ -57,25 +97,34 @@
 
             <div class="row g-3">
                 <div class="col-12 col-md-4">
-                    <article class="ruta-card h-100">
-                        <img src="img/rutasrio.jpg" alt="ruta río y parques" class="img-fluid">
-                        <h2>río y parques</h2>
-                        <p>nivel: fácil</p>
-                    </article>
+                    <div class="card h-100">
+                        <img src="img/rutasrio.jpg" alt="ruta río y parques" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">río y parques</h5>
+                            <p class="card-text">nivel: fácil</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-12 col-md-4">
-                    <article class="ruta-card h-100">
-                        <img src="img/rutabarrios.jpg" alt="ruta sabores de barrio" class="img-fluid">
-                        <h2>sabores de barrio</h2>
-                        <p>nivel: medio</p>
-                    </article>
+                    <div class="card h-100">
+                        <img src="img/rutabarrios.jpg" alt="ruta sabores de barrio" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">sabores de barrio</h5>
+                            <p class="card-text">nivel: medio</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-12 col-md-4">
-                    <article class="ruta-card h-100">
-                        <img src="img/rutapalmas.jpg" alt="ruta reto las palmas" class="img-fluid">
-                        <h2>reto las palmas</h2>
-                        <p>nivel: difícil</p>
-                    </article>
+                    <div class="card h-100">
+                        <img src="img/rutapalmas.jpg" alt="ruta reto las palmas" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">reto las palmas</h5>
+                            <p class="card-text">nivel: difícil</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

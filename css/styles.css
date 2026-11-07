@@ -144,21 +144,6 @@ a {
     color: var(--verde-ruta);
 }
 
-.boton-reservar {
-    display: inline-block;
-    background-color: var(--verde-ruta);
-    color: white;
-    padding: var(--espacio-2) var(--espacio-3);
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.boton-reservar:hover {
-    background-color: var(--azul-oscuro);
-    color: white;
-}
-
 button {
     background-color: var(--verde-ruta);
     color: white;
@@ -288,31 +273,6 @@ footer a {
 
 .footer-bloque {
     width: 100%;
-}
-
-.ruta-card {
-    min-width: 0;
-    padding: 1.5rem;
-    border: 1px solid #5B6470;
-    border-radius: 8px;
-    background-color: white;
-}
-
-.ruta-card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-}
-
-.ruta-card p {
-    margin: 0.5rem 0;
-    padding: 8px;
-    text-align: center;
-    background-color: #FAF6EF;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #1E7A4F;
-    font-size: 16px;
 }
 
 .contacto {

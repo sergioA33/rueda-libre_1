@@ -12,14 +12,28 @@
 <body>
 
     <header>
-        <h1>tarifas y rutas</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container py-4">
+                <a class="navbar-brand" href="../index.html">rueda libre</a>
 
-        <nav>
-            <ul id="menu">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="tarifas.html" class="activo">tarifas y rutas</a></li>
-                <li><a href="reservas.html">reservas</a></li>
-            </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tarifas.html" aria-current="page">tarifas y rutas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservas.html">reservas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -138,7 +152,7 @@
                 </aside>
 
                 <p>
-                    <a href="reservas.html" class="boton-reservar">reservar ahora</a>
+                    <a href="reservas.html" class="btn btn-primary btn-lg">reservar ahora</a>
                 </p>
 
             </div>

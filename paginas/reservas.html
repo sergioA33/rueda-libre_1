@@ -11,18 +11,31 @@
 </head>
 
 <body>
-
     <header>
-        <h1>reserva tu bicicleta</h1>
-        <nav>
-            <ul id="menu">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="tarifas.html">tarifas y rutas</a></li>
-                <li><a href="reservas.html" class="activo">reservas</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container py-4">
+                <a class="navbar-brand" href="../index.html">rueda libre</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarifas.html">tarifas y rutas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="reservas.html" aria-current="page">reservas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-
     <main class="container my-4">
 
         <div class="row g-4">
@@ -101,7 +114,7 @@
                         <label for="politicas">acepto las políticas de alquiler</label>
                     </fieldset>
 
-                    <button type="submit">enviar reserva</button>
+                    <button type="submit" class="btn btn-primary">enviar reserva</button>
 
                 </form>
             </section>

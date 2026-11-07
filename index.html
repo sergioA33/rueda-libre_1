@@ -10,17 +10,27 @@
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <header>
-        <h1>rueda libre</h1>
-
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" class="activo">inicio</a></li>
-                <li><a href="paginas/tarifas.html">tarifas y rutas</a></li>
-                <li><a href="paginas/reservas.html">reservas</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container py-4">
+            <a class="navbar-brand" href="index.html">rueda libre</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/tarifas.html">tarifas y rutas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/reservas.html">reservas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
 
     <main>
@@ -30,7 +40,7 @@
                     <h2>bienvenidos a rueda libre</h2>
                     <p>somos un negocio de medellín que alquila bicicletas y ofrece recorridos por la ciudad.</p>
                     <p>disfruta de nuevas aventuras y conoce nuestra ciudad sobre ruedas.</p>
-                    <a href="paginas/reservas.html" class="boton-reservar">reservar ahora</a>
+                    <a href="paginas/reservas.html" class="btn btn-primary btn-lg">reservar ahora</a>
                 </div>
                 <div class="col-12 col-md-6">
                     <img src="img/portada.jpg" alt="bicicletas de rueda libre" class="img-fluid rounded">
@@ -96,8 +106,8 @@
                     <div class="card h-100">
                         <img src="img/ciclaurbananacla.jpg" class="card-img-top" alt="bicicleta urbana clásica">
                         <div class="card-body">
-                            <h5 class="card-title">urbana clásica</h5>
-                            <p class="card-text">cómoda y liviana para las ciclorrutas.</p>
+                            <h5 class="card-title">urbana clasica</h5>
+                            <p class="card-text">comoda y liviana para las ciclorrutas</p>
                             <p class="card-text fw-bold text-success">$10.000 por hora</p>
                             <a href="paginas/reservas.html" class="btn btn-success">reservar</a>
                         </div>
@@ -144,8 +154,8 @@
                     <div class="card h-100">
                         <img src="img/bicielectrica.jpg" class="card-img-top" alt="bicicleta eléctrica urbana">
                         <div class="card-body">
-                            <h5 class="card-title">eléctrica urbana</h5>
-                            <p class="card-text">asistencia eléctrica con 45 km de autonomía.</p>
+                            <h5 class="card-title">electrica urbana</h5>
+                            <p class="card-text">asistencia electrica con 45 km de autonomia.</p>
                             <p class="card-text fw-bold text-success">$25.000 por hora</p>
                             <a href="paginas/reservas.html" class="btn btn-success">reservar</a>
                         </div>
@@ -168,7 +178,7 @@
                     <div class="card h-100">
                         <img src="img/tandem.jpg" class="card-img-top" alt="bicicleta tándem">
                         <div class="card-body">
-                            <h5 class="card-title">tándem</h5>
+                            <h5 class="card-title">tandem</h5>
                             <p class="card-text">para dos personas; ideal para compartir el recorrido.</p>
                             <p class="card-text fw-bold text-success">$20.000 por hora</p>
                             <a href="paginas/reservas.html" class="btn btn-success">reservar</a>

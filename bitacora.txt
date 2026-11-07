@@ -125,4 +125,16 @@ desventajas
 al principio cuesta un poco entender las clases de bootstrap
 hay que tener cuidado con los estilos propios para que no choquen con bootstrap
 
-mini reto 9:
+mini reto 9:en este mini reto actualice el menu de navegacion de las tres paginas del proyecto rueda libre utilizando el navbar de bootstrap
+se implemento un menu hamburguesa que aparece en pantallas pequeñas y muestra los enlaces directamente en pantallas grandes
+se agregaron las clases necesarias para identificar la pagina activa y se conservaron los enlaces de navegacion
+tambien se actualizaron los botones de reserva utilizando las clases de bootstrap para mantener un diseño organizado y coherente
+se reviso que el javascript de bootstrap estuviera incluido una sola vez al final de cada pagina
+     pruebas 
+se comprobo el menu en pantallas de 360, 768 y 992 para ver si servia bien 
+se verifico que el menu abriera y cerrara correctamente
+se reviso la navegacion con el teclado
+se comprobo que los enlaces funcionaran
+se verifico el funcionamiento en inicio, tarifas y reservas
+
+mini reto 10:

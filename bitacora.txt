@@ -70,17 +70,16 @@ mini reto2: Organice la flota de bicicletas usando Grid.agrege tarjetas con foto
  En pantallas mas grandes, el nombre y el menú quedan uno al lado del otro,el pie de pagina tambien cambia su distribucion segun el tamaño de pantalla
 la flota muestra una columna en celular, dos en tabletas y tres en computadores. Utilice Grid para organizar las columnas y Flexbox para distribuir elementos en una misma fila
 
---------problemas resposive y  solucones -----
+problemas resposive y  solucones:
 La portada se veia apretada en celular, la solucione colocando el texto y la imagen en una sola columna
 Las tarjetas de rutas y bicicletas no se acomodaban bien en pantallas pequeñas. Las organicé con columnas
 que cambian segun el tamaño de pantalla.las tablas de tarifas tenian mucho contenido y se salian del espacio disponible 
 reduje el tamaño de letra y el relleno de las celdas para facilitar su lectura.El menu ocupaba mucho espacio en celular
 lo organice verticalmente y centrado
-
---------pruebas -------
+pruebas:
 Probé el sitio en los tamaños de 360 px, 768 px y 1200 px para revisar su adaptacion a diferentes pantallas.
 
-mini reto5: me demore aproximadamente 1 hora y 30 minutos realizando la pagina de prueba con bootstrap. organice las siete bicicletas
+mini reto5 : me demore aproximadamente 1 hora y 30 minutos realizando la pagina de prueba con bootstrap. organice las siete bicicletas
 utilizando las tarjetas y las clases de bootstrap para distribuirlas en diferentes columnas segun el tamaño de la pantalla. tambien 
 revise que las imagenes cargaran correctamente y probe que se ajustara en diferentes tamaños de panatallas
 con bootstrap pude organizar las tarjetas mas facilmente sin escribir tantas lineas de css. tambien me permitio adaptar las columnas 
@@ -89,4 +88,23 @@ entender algunas clases ya que es un poco complejo para mi entenderlas y en comp
 bootstrap permite hacer la distribucion de las tarjetas con menos codigo propio, aunque todavia necesito practicar para manejarlo mejor
 ya que es algo nuevo para mi.
 
-Mini reto 6:
+mini reto 6:en este mini reto se agrego una seccion llamada por que rueda libre con cuatro beneficios del negocio
+- bicicletas revisadas
+- casco y candado incluidos
+- guias certificados
+- puntos de devolucion
+tambien se creo una franja final con el mensaje listo para rodar y un enlace para reservar
+se utilizaron clases de bootstrap para organizar los beneficios y adaptar el contenido a diferentes
+ tamaños de pantalla sin utilizar css propio se aprendio a utilizar las clases de bootstrap para organizar las columnas y distribuir los elementos de manera sencilla
+resultado
+se logro agregar los cuatro beneficios y la franja final de reserva y se comprobo que el contenido se adaptara a diferentes tamaños de pantalla
+
+mini reto7:se integro bootstrap 5 en la pagina principal de rueda libre. se utilizo la grilla de bootstrap para organizar la portada, las tarjetas de bicicletas, las rutas y los beneficios
+se mantuvieron los colores, la letra y la identidad visual del proyecto.
+conflictos revisados en devtools:
+color del texto: se revisaron los colores de bootstrap y los colores propios del proyecto. se mantuvo el color gris de rueda libr
+tamaño de las imagenes: se reviso la propiedad height: auto y se comprobo que estaba activa, por lo que no fue necesario modificarla
+ ancho de las imagenes: se reviso la propiedad width: 100% para comprobar que las imagenes ocuparan el ancho disponible
+se comprobo que algunas propiedades de bootstrap aparecian tachadas porque otras reglas tenian prioridad, no fue necesario cambiar las propiedades que estaban funcionando bien 
+
+mini reto 8:

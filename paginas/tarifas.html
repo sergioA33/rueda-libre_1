@@ -1,129 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rueda Libre | Tarifas y rutas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
 
     <header>
         <h1>tarifas y rutas</h1>
 
         <nav>
-            <ul id="menu" >
+            <ul id="menu">
                 <li><a href="../index.html">inicio</a></li>
-                <li><a href="tarifas.html"class="activo">tarifas y rutas</a></li>
+                <li><a href="tarifas.html" class="activo">tarifas y rutas</a></li>
                 <li><a href="reservas.html">reservas</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <img src="../img/portada.jpg" alt="bicicletas de rueda libre" width="400">
 
-        <section>
-            <h2>tarifas de alquiler</h2>
+    <main class="container my-4">
 
-            <table>
-                <caption>precios de alquiler de bicicletas</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">tipo de bicicleta</th>
-                        <th scope="col">1 hora</th>
-                        <th scope="col">medio día (4 h)</th>
-                        <th scope="col">día completo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">urbana</th>
-                        <td>$10.000</td>
-                        <td>$30.000</td>
-                        <td>$50.000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">montaña</th>
-                        <td>$15.000</td>
-                        <td>$45.000</td>
-                        <td>$70.000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">eléctrica</th>
-                        <td>$25.000</td>
-                        <td>$70.000</td>
-                        <td>$110.000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <div class="text-center mb-4">
+            <img src="../img/portada.jpg" alt="bicicletas de rueda libre" class="img-fluid rounded">
+        </div>
 
-        <section id="recorridos">
-            <h2>tarifas de recorridos guiados</h2>
+        <div class="row g-4">
 
-            <table>
-                <caption>precios de los recorridos guiados</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">recorrido</th>
-                        <th scope="col">distancia</th>
-                        <th scope="col">duración</th>
-                        <th scope="col">nivel</th>
-                        <th scope="col">precio por persona</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">río y parques</th>
-                        <td>12 km</td>
-                        <td>2 h</td>
-                        <td>fácil</td>
-                        <td>$45.000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">sabores de barrio</th>
-                        <td>18 km</td>
-                        <td>3 h</td>
-                        <td>medio</td>
-                        <td>$60.000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">reto las palmas</th>
-                        <td>25 km</td>
-                        <td>4 h</td>
-                        <td>difícil</td>
-                        <td>$85.000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            <div class="col-12 col-lg-8">
 
-        <section>
-            <h2>qué incluye</h2>
-            <p>todas las tarifas incluyen casco y candado.</p>
-        </section>
+                <section class="mb-4">
+                    <h2>tarifas de alquiler</h2>
 
-        <section>
-            <h2>horarios que se manejan</h2>
-            <p>los recorridos salen sábados y domingos a las 7:00 a. m.</p>
-        </section>
+                    <div class="table-responsive">
+                        <table>
+                            <caption>precios de alquiler de bicicletas</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">tipo de bicicleta</th>
+                                    <th scope="col">1 hora</th>
+                                    <th scope="col">medio día (4 h)</th>
+                                    <th scope="col">día completo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">urbana</th>
+                                    <td>$10.000</td>
+                                    <td>$30.000</td>
+                                    <td>$50.000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">montaña</th>
+                                    <td>$15.000</td>
+                                    <td>$45.000</td>
+                                    <td>$70.000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">eléctrica</th>
+                                    <td>$25.000</td>
+                                    <td>$70.000</td>
+                                    <td>$110.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
 
-        <aside>
-            <h2>qué llevar</h2>
-            <ul>
-                <li>ropa cómoda</li>
-                <li>agua</li>
-                <li>protector solar</li>
-                <li>documento de identidad</li>
-            </ul>
-        </aside>
-        
-        <p><a href="reservas.html">reservar ahora</a></p>
+                <section class="mb-4" id="recorridos">
+                    <h2>tarifas de recorridos guiados</h2>
+
+                    <div class="table-responsive">
+                        <table>
+                            <caption>precios de los recorridos guiados</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">recorrido</th>
+                                    <th scope="col">distancia</th>
+                                    <th scope="col">duración</th>
+                                    <th scope="col">nivel</th>
+                                    <th scope="col">precio por persona</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">río y parques</th>
+                                    <td>12 km</td>
+                                    <td>2 h</td>
+                                    <td>fácil</td>
+                                    <td>$45.000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">sabores de barrio</th>
+                                    <td>18 km</td>
+                                    <td>3 h</td>
+                                    <td>medio</td>
+                                    <td>$60.000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">reto las palmas</th>
+                                    <td>25 km</td>
+                                    <td>4 h</td>
+                                    <td>difícil</td>
+                                    <td>$85.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="col-12 col-lg-4">
+
+                <section class="mb-4">
+                    <h2>qué incluye</h2>
+                    <p>todas las tarifas incluyen casco y candado.</p>
+                </section>
+
+                <section class="mb-4">
+                    <h2>horarios que se manejan</h2>
+                    <p>los recorridos salen sábados y domingos a las 7:00 a. m.</p>
+                </section>
+
+                <aside class="mb-4">
+                    <h2>qué llevar</h2>
+                    <ul>
+                        <li>ropa cómoda</li>
+                        <li>agua</li>
+                        <li>protector solar</li>
+                        <li>documento de identidad</li>
+                    </ul>
+                </aside>
+
+                <p>
+                    <a href="reservas.html" class="boton-reservar">reservar ahora</a>
+                </p>
+
+            </div>
+
+        </div>
+
     </main>
 
     <footer>
-        <p>rueda libre | hola@ruedalibre.example | 2026</p>
+        <p>rueda libre | hola@ruedalibre. | 2026</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-   </html>
+
+</html>

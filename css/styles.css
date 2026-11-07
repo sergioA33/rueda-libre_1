@@ -97,27 +97,6 @@ img {
     height: auto;
 }
 
-.portada {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--espacio-3);
-    align-items: center;
-    min-height: auto;
-}
-
-.portada-texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.portada-imagen img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
-
 .servicios {
     display: flex;
     flex-wrap: wrap;
@@ -148,17 +127,6 @@ img {
     padding: 3px 10px;
     border-radius: 3px;
     font-weight: bold;
-}
-
-.flota {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.flota-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
 }
 
 .card-img-top {
@@ -322,17 +290,6 @@ footer a {
     width: 100%;
 }
 
-.rutas {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.rutas-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
 .ruta-card {
     min-width: 0;
     padding: 1.5rem;
@@ -356,37 +313,6 @@ footer a {
     font-weight: bold;
     color: #1E7A4F;
     font-size: 16px;
-}
-
-.reservas-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    align-items: start;
-}
-
-.formulario {
-    min-width: 0;
-}
-
-.formulario fieldset {
-    margin-bottom: 1rem;
-    min-width: 0;
-}
-
-.campos-fila {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.campos-fila>div {
-    flex: 1;
-    min-width: 0;
-}
-
-.campos-fila input {
-    width: 100%;
 }
 
 .contacto {
@@ -414,29 +340,27 @@ footer a {
     main {
         padding: var(--espacio-3);
     }
-    .reservas-layout {
-        grid-template-columns: 2fr 1fr;
-    }
-    .campos-fila {
-        flex-direction: row;
-    }
-    footer {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        text-align: left;
-    }
-    .footer-bloque {
-        flex: 1 1 12rem;
-        width: auto;
-    }
-    table {
-        font-size: 13px;
-    }
-    th,
-    td {
-        padding: 8px;
-    }
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-bloque {
+    flex: 1 1 12rem;
+    width: auto;
+}
+
+table {
+    font-size: 13px;
+}
+
+th,
+td {
+    padding: 8px;
 }
 
 @media (min-width: 1200px) {

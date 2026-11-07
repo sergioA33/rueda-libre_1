@@ -104,7 +104,25 @@ se mantuvieron los colores, la letra y la identidad visual del proyecto.
 conflictos revisados en devtools:
 color del texto: se revisaron los colores de bootstrap y los colores propios del proyecto. se mantuvo el color gris de rueda libr
 tamaño de las imagenes: se reviso la propiedad height: auto y se comprobo que estaba activa, por lo que no fue necesario modificarla
- ancho de las imagenes: se reviso la propiedad width: 100% para comprobar que las imagenes ocuparan el ancho disponible
+ancho de las imagenes: se reviso la propiedad width: 100% para comprobar que las imagenes ocuparan el ancho disponible
 se comprobo que algunas propiedades de bootstrap aparecian tachadas porque otras reglas tenian prioridad, no fue necesario cambiar las propiedades que estaban funcionando bien 
 
 mini reto 8:
+en este mini reto se paso la pagina de tarifas y rutas y la pagina de reservas a bootstrap en tarifas se organizaron las tablas y la informacion complementaria en columnas para 
+que se adapten a diferentes tamaños de pantalla ,en reservas se organizo el formulario y la informacion de contacto en dos columnas y se conservaron las validaciones de los campos
+tambien se limpio el archivo styles.css quitando varios estilos que ya no eran necesarios porque bootstrap se encarga de organizar el contenido
+comparacion de versiones para ver que tantas lineas nos ahorranmos 
+
+version anterior: 419 lineas de css en el commit de referencia
+version actual: 374 lineas de css
+con una diferencia de 45 lineas menos 
+
+ventajas
+bootstrap permite organizar el contenido mas facilmente
+se necesita menos css para distribuir los elementos
+las paginas se adaptan mejor a diferentes tamaños de pantalla
+desventajas
+al principio cuesta un poco entender las clases de bootstrap
+hay que tener cuidado con los estilos propios para que no choquen con bootstrap
+
+mini reto 9:

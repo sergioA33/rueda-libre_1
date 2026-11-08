@@ -160,4 +160,15 @@ comprobe las reglas de documento celular y fecha
 revise que la alerta se pudiera cerrar
 abri y cerre la ventana de politicas con el mouse
 
-mini reto 12:
+mini reto 12: en este mini reto personalice bootstrap como decia la guia utilizando los colores de rueda libre y la fuente arial. tambien agregue un 
+estilo para los botones principales y cree un boton naranja con texto oscuro y agregue clases propias para complementar el diseño y utilice bootstrap 
+icons en el menu, la informacion de contacto, los beneficios y el enlace de wpp despues revise el sitio en diferentes tamaños de pantalla con 320, 360, 768 y 1280
+tambien comprobe el funcionamiento del menu, los botones y la navegacion con el teclado realice algunos ajustes para mejorar la presentacion en celulares 
+y corregi detalles del codigo
+
+capturas del proyecto
+- antes: img/capturas/antes.jpg
+- despues: img/capturas/despues.png
+
+------semana 3-------------
+mini reto 1:

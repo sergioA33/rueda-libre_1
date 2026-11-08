@@ -7,6 +7,7 @@
     <meta name="description" content="Información para reservar bicicletas en Rueda Libre">
     <title>Rueda Libre | Reservas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -23,13 +24,19 @@
                 <div class="collapse navbar-collapse" id="menuPrincipal">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">inicio</a>
+                            <a class="nav-link" href="../index.html">
+                                <i class="bi bi-house-door" aria-hidden="true"></i> inicio
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tarifas.html">tarifas y rutas</a>
+                            <a class="nav-link" href="tarifas.html">
+                                <i class="bi bi-bicycle" aria-hidden="true"></i> tarifas y rutas
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="reservas.html" aria-current="page">reservas</a>
+                            <a class="nav-link active" href="reservas.html" aria-current="page">
+                                <i class="bi bi-calendar-check" aria-hidden="true"></i> reservas
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -55,7 +62,7 @@
                             escribe tu nombre completo con al menos 3 letras
                         </div>
 
-                        <div class="row g-3">
+                        <div class="row g-3 mb-3">
                             <div class="col-12 col-md-6">
                                 <label for="documento" class="form-label">número de documento:</label>
                                 <input type="text" id="documento" name="documento" class="form-control" required pattern="[0-9]{6,10}" title="escribe entre 6 y 10 números">
@@ -106,12 +113,16 @@
                         <div class="invalid-feedback">
                             seleccione el tiempo que quiere alquilar la bicicleta
                         </div>
+                        <label for="plan" class="form-label">plan de alquiler:</label>
                         <select id="plan" name="plan" class="form-select" required>
                             <option value="">elige un plan</option>
                             <option value="1 hora">1 hora</option>
                             <option value="medio día">medio día</option>
                             <option value="día completo">día completo</option>
                         </select>
+                        <div class="invalid-feedback">
+                            selecciona el tiempo que quieres alquilar la bicicleta
+                        </div>
 
                         <label for="cantidad" class="form-label">cantidad de bicicletas:</label>
                         <input type="number" id="cantidad" name="cantidad" class="form-control" min="1" max="6" required>
@@ -174,14 +185,18 @@
                 </div>
 
             </section>
-            <aside class="col-12 col-md-4 contacto">
+            <aside class="col-12 col-md-4 contacto text-break">
                 <h2>información de contacto</h2>
                 <p>para reservar, puedes escribirnos al correo:</p>
-                <p><a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
-
-                <h3>horario de atención</h3>
-                <p>sábado a domingo</p>
-                <p>salimos a las 7 am</p>
+                <p>
+                    <i class="bi bi-envelope" aria-hidden="true"></i>
+                    <a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a>
+                </p>
+                <h3 class="text-break">
+                    <i class="bi bi-clock" aria-hidden="true"></i> horario de atención
+                </h3>
+                <p class="text-break">sábado a domingo</p>
+                <p class="text-break">salimos a las 7 am</p>
             </aside>
         </div>
 
@@ -192,7 +207,27 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        (() => {
+            'use strict'
+
+            const forms = document.querySelectorAll('.needs-validation')
+
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
 </body>
+
+</html>
 <script>
     (() => {
         'use strict'

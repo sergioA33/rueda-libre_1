@@ -147,5 +147,17 @@ probe las flechas con el teclado
 revise las paginas en 360, 768 y 1280 pixeles
 comprobe que las tarjetas se vieran bien
 
-mini reto 11:
+mini reto 11: en este mini reto mejore el formulario de reservas utilizando las clases de bootstrap para organizar los 
+campos y mostrar mensajes cuando falta algun dato o la informacion es incorrecta tambien agregue mensajes de ayuda para cada
+campo obligatorio y un script de validacion para evitar que el formulario se envie si tiene errores esta parte del script se
+me hizo dificil porque no entendia muy bien como funcionaba y tuve que buscar informacion y revisar ejemplos para poder implementarlo correctamente
+despues de probarlo logre que la validacion funcionara tambien agregue una alerta para recordar que se debe llevar el documento de identidad original
+y una ventana modal con las cinco politicas de alquiler
+     pruebas
+intente enviar el formulario vacio
+revise los mensajes de error y corregi los campos
+comprobe las reglas de documento celular y fecha
+revise que la alerta se pudiera cerrar
+abri y cerre la ventana de politicas con el mouse
 
+mini reto 12:

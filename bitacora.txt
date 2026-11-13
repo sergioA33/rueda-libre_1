@@ -171,4 +171,11 @@ capturas del proyecto
 - despues: img/capturas/despues.png
 
 ------semana 3-------------
-mini reto 1:
+mini reto 1:se creo la carpeta nocturna y el archivo prototipo.html para construir la seccion principal de la campaña rueda nocturna
+se utilizo tailwind mediante el play cdn y sus clases para agregar colores, espacios, tamaños y estilos de texto en la semana 2 se construyo el boton con bootstrap utilizando clases
+como btn y btn-warning. en este mini reto se construyo el enlace inscribete con tailwind utilizando clases como bg-orange-500, px-6, py-3 y font-bold
+la diferencia es que bootstrap ofrece componentes y estilos ya preparados, mientras que tailwind permite construir los estilos combinando pequeñas clases de utilidad directamente en el html
+el prototipo se visualizo correctamente en el navegador
+
+mini reto 2: trabaje en el mini reto 2 hice una prueba de tailwind en un archivo aparte para no tocar mi index principal enlace el css que genero el programa puse un texto de prueba con un color de tailwind lo mire
+en pantallas de varios tamaños y si se ve bien me demore un tiempo en entenderlo

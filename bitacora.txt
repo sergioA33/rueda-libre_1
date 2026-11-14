@@ -197,4 +197,8 @@ mini reto 5: trabaje en la construccion de la landing page de rueda nocturna uti
 la seccion de como funciona con cuatro pasos la franja de inscripcion y el pie de pagina utilice flexbox para organizar el encabezado la franja de inscripcion y los tres bloques del pie de pagina tambien utilice grid para distribuir las tres tarjetas
 de rutas en tres columnas y los cuatro pasos en una fila agregue enlaces internos para navegar entre las secciones y organice el contenido utilizando contenedores con el mismo ancho y espaciado tambien revise que las imagenes los botones y los enlaces funcionaran correctamente en el navegador
 
-mini reto 6:
+mini reto 6:trabaje en la adaptacion de la landing page de rueda nocturna para que se pudiera visualizar correctamente en celulares, tabletas y computadores. al principio revise la pagina en un ancho de 360 px y encontre que algunos elementos necesitaban ajustes para organizarse mejor en pantallas
+pequeñas. utilice las clases responsive de tailwind para organizar el encabezado, las tarjetas de rutas y los pasos de como funciona. tambien ajuste los tamaños de texto y los espacios entre las secciones. en celulares deje ocultos los enlaces del menu y mantuve visible el boton de inscripcion. finalmente
+hice pruebas en el navegador con anchos de 360, 768, 1024 y 1280 px y comprobe que el contenido se acomodara correctamente en cada tamaño 
+
+mini reto 7:

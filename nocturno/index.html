@@ -11,17 +11,16 @@
 <body class="bg-gray-100">
 
     <header class="bg-blue-900">
-        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between md:px-6 md:py-5">
 
             <a href="#inicio" class="text-2xl font-bold text-white">
                 rueda nocturna
             </a>
 
-            <nav class="flex items-center gap-6">
-                <a href="#inicio" class="text-white hover:text-orange-400">inicio</a>
-                <a href="#rutas" class="text-white hover:text-orange-400">rutas</a>
-                <a href="#funciona" class="text-white hover:text-orange-400">como funciona</a>
-
+            <nav class="flex flex-col items-center gap-4 md:flex-row md:gap-6">
+                <a href="#inicio" class="hidden md:block text-white hover:text-orange-400">inicio</a>
+                <a href="#rutas" class="hidden md:block text-white hover:text-orange-400">rutas</a>
+                <a href="#funciona" class="hidden md:block text-white hover:text-orange-400">como funciona</a>
                 <a href="#inscripcion" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block hover:bg-orange-600">
                     inscribete
                 </a>
@@ -31,14 +30,14 @@
     </header>
 
     <main>
-        <section id="inicio" class="bg-blue-100 py-16">
-            <div class="max-w-6xl mx-auto px-6 text-center">
+        <section id="inicio" class="bg-blue-100 py-10 sm:py-12 lg:py-16">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
 
-                <h1 class="text-4xl font-bold text-blue-900 mb-6">
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-4 lg:mb-6">
                     vive la ciudad sobre ruedas
                 </h1>
 
-                <p class="text-lg text-gray-700 mb-6">
+                <p class="text-base sm:text-lg text-gray-700 mb-6">
                     descubre nuevas rutas nocturnas y disfruta la ciudad en bicicleta
                 </p>
 
@@ -50,10 +49,10 @@
         </section>
 
 
-        <section id="rutas" class="max-w-6xl mx-auto px-6 py-12">
-            <h2 class="text-2xl font-bold mb-6">nuestras rutas</h2>
+        <section id="rutas" class="max-w-6xl mx-auto px-4 py-8 sm:px-6 sm:py-10 lg:py-12">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">nuestras rutas</h2>
 
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                 <article class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl flex flex-col h-full">
 
                     <img src="../img/rutabarrios.jpg" alt="ruta por los barrios de la ciudad" class="w-full h-48 object-cover rounded-lg">
@@ -141,13 +140,13 @@
             </div>
         </section>
 
-        <section id="funciona" class="max-w-6xl mx-auto px-6 py-12">
+        <section id="funciona" class="max-w-6xl mx-auto px-4 py-8 sm:px-6 sm:py-10 lg:py-12">
 
-            <h2 class="text-2xl font-bold text-blue-900 text-center mb-8">
+            <h2 class="text-xl sm:text-2xl font-bold text-blue-900 text-center mb-6 sm:mb-8">
                 ¿como funciona?
             </h2>
 
-            <div class="grid grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
 
                 <article class="bg-white rounded-lg shadow-md p-6 text-center">
                     <h3 class="text-xl font-bold text-blue-900 mb-3">1. elige tu ruta</h3>
@@ -172,8 +171,8 @@
             </div>
         </section>
 
-        <section id="inscripcion" class="bg-blue-900 py-10">
-            <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+        <section id="inscripcion" class="bg-blue-900 py-8 sm:py-10 lg:py-12">
+            <div class="max-w-6xl mx-auto px-4 flex flex-col gap-5 text-center md:flex-row md:items-center md:justify-between md:px-6 md:text-left">
 
                 <div>
                     <h2 class="text-2xl font-bold text-white mb-2">
@@ -186,14 +185,14 @@
                 </div>
 
                 <a href="#rutas" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block hover:bg-orange-600">
-            elegir mi ruta
-        </a>
+                    elegir mi ruta
+                </a>
 
             </div>
         </section>
     </main>
     <footer class="bg-blue-900 text-white py-8">
-        <div class="max-w-6xl mx-auto px-6 flex justify-between gap-6">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col gap-6 text-center sm:px-6 md:flex-row md:justify-between md:text-left">
 
             <div>
                 <h3 class="text-xl font-bold mb-3">rueda nocturna</h3>
@@ -216,5 +215,7 @@
         </div>
     </footer>
 </body>
+
+</html>
 
 </html>

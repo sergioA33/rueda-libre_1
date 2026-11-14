@@ -8,116 +8,213 @@
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100 p-6">
+<body class="bg-gray-100">
 
-    <h1 class="text-3xl font-bold text-center text-blue-900 mb-8">
-        rutas rueda nocturna
-    </h1>
+    <header class="bg-blue-900">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
 
-    <section class="text-center mb-8">
+            <a href="#inicio" class="text-2xl font-bold text-white">
+                rueda nocturna
+            </a>
 
-        <h2 class="text-2xl font-bold mb-4">prueba de botones</h2>
-        <div class="flex flex-wrap justify-center gap-4">
-            <button class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 hover:bg-orange-600">
-                boton principal
-            </button>
-            <button class="bg-blue-900 text-white px-5 py-2 rounded shadow hover:bg-blue-700 focus:ring-4 focus:ring-blue-300">
-                boton secundario
-            </button>
-            <button class="border-2 border-blue-900 text-blue-900 px-5 py-2 rounded hover:bg-blue-900 hover:text-white focus:ring-4 focus:ring-blue-300">
-                boton de contorno
-            </button>
+            <nav class="flex items-center gap-6">
+                <a href="#inicio" class="text-white hover:text-orange-400">inicio</a>
+                <a href="#rutas" class="text-white hover:text-orange-400">rutas</a>
+                <a href="#funciona" class="text-white hover:text-orange-400">como funciona</a>
+
+                <a href="#inscripcion" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block hover:bg-orange-600">
+                    inscribete
+                </a>
+            </nav>
+
         </div>
+    </header>
 
-    </section>
+    <main>
+        <section id="inicio" class="bg-blue-100 py-16">
+            <div class="max-w-6xl mx-auto px-6 text-center">
+
+                <h1 class="text-4xl font-bold text-blue-900 mb-6">
+                    vive la ciudad sobre ruedas
+                </h1>
+
+                <p class="text-lg text-gray-700 mb-6">
+                    descubre nuevas rutas nocturnas y disfruta la ciudad en bicicleta
+                </p>
+
+                <a href="#rutas" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 hover:bg-orange-600">
+                         conoce nuestras rutas
+                    </a>
+
+            </div>
+        </section>
 
 
-    <section class="max-w-6xl mx-auto">
-        <h2 class="text-2xl font-bold mb-6">nuestras rutas</h2>
+        <section id="rutas" class="max-w-6xl mx-auto px-6 py-12">
+            <h2 class="text-2xl font-bold mb-6">nuestras rutas</h2>
 
-        <div class="bg-white rounded-lg shadow-md p-4 mb-6 hover:shadow-xl">
+            <div class="grid grid-cols-3 gap-6">
+                <article class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl flex flex-col h-full">
 
-            <img src="../img/rutabarrios.jpg" alt="ruta por los barrios de la ciudad" class="w-full h-48 object-cover rounded-lg">
+                    <img src="../img/rutabarrios.jpg" alt="ruta por los barrios de la ciudad" class="w-full h-48 object-cover rounded-lg">
 
-            <p class="bg-green-100 text-green-800 rounded px-3 py-1 mt-4 inline-block">
-                nivel facil
-            </p>
+                    <p class="bg-green-100 text-green-800 rounded px-3 py-1 mt-4 inline-block">
+                        nivel facil
+                    </p>
 
-            <h3 class="text-xl font-bold mt-3 mb-3">luces del centro</h3>
+                    <h3 class="text-xl font-bold mt-3 mb-3">luces del centro</h3>
 
-            <ul class="text-gray-700 space-y-2">
-                <li><span class="text-sm text-gray-500">distancia:</span> <strong>10 km</strong></li>
-                <li><span class="text-sm text-gray-500">duracion:</span> <strong>2 horas</strong></li>
-                <li><span class="text-sm text-gray-500">punto de encuentro:</span> <strong>sede de rueda libre</strong></li>
-            </ul>
+                    <ul class="text-gray-700 space-y-2">
+                        <li>distancia: <strong>10 km</strong></li>
+                        <li>duracion: <strong>2 horas</strong></li>
+                        <li>punto de encuentro: <strong>sede de rueda libre</strong></li>
+                    </ul>
 
-            <p class="text-2xl font-bold text-green-700 mt-4">$55.000</p>
+                    <p class="text-2xl font-bold text-green-700 mt-4">$55.000</p>
 
-            <p class="text-gray-600 mt-2">
-                incluye bicicleta, casco, luces led, chaleco reflectivo y guia
-            </p>
+                    <p class="text-gray-600 mt-2">
+                        incluye bicicleta, casco, luces led, chaleco reflectivo y guia
+                    </p>
 
-            <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 hover:bg-orange-600">
-            reservar ruta
+                    <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-auto hover:bg-orange-600">
+                reservar ruta
+            </a>
+
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl flex flex-col h-full">
+
+                    <img src="../img/rutasrio.jpg" alt="ruta de los miradores de la ciudad" class="w-full h-48 object-cover rounded-lg">
+
+                    <p class="bg-yellow-100 text-yellow-800 rounded px-3 py-1 mt-4 inline-block">
+                        nivel medio
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-3 mb-3">miradores de la ciudad</h3>
+
+                    <ul class="text-gray-700 space-y-2">
+                        <li>distancia: <strong>16 km</strong></li>
+                        <li>duracion: <strong>3 horas</strong></li>
+                        <li>punto de encuentro: <strong>sede de rueda libre</strong></li>
+                    </ul>
+
+                    <p class="text-2xl font-bold text-green-700 mt-4">$75.000</p>
+
+                    <p class="text-gray-600 mt-2">
+                        incluye bicicleta, casco, luces led, chaleco reflectivo y guia
+                    </p>
+
+                    <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-auto hover:bg-orange-600">
+                reservar ruta
+            </a>
+
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl flex flex-col h-full">
+
+                    <img src="../img/rutapalmas.jpg" alt="ruta nocturna por las palmas" class="w-full h-48 object-cover rounded-lg">
+
+                    <p class="bg-red-100 text-red-800 rounded px-3 py-1 mt-4 inline-block">
+                        nivel dificil
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-3 mb-3">luna en las palmas</h3>
+
+                    <ul class="text-gray-700 space-y-2">
+                        <li>distancia: <strong>22 km</strong></li>
+                        <li>duracion: <strong>3 horas y media</strong></li>
+                        <li>punto de encuentro: <strong>sede de rueda libre</strong></li>
+                    </ul>
+
+                    <p class="text-2xl font-bold text-green-700 mt-4">$95.000</p>
+
+                    <p class="text-gray-600 mt-2">
+                        incluye bicicleta, casco, luces led, chaleco reflectivo y guia
+                    </p>
+
+                    <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-auto hover:bg-orange-600">
+                reservar ruta
+            </a>
+
+                </article>
+
+            </div>
+        </section>
+
+        <section id="funciona" class="max-w-6xl mx-auto px-6 py-12">
+
+            <h2 class="text-2xl font-bold text-blue-900 text-center mb-8">
+                ¿como funciona?
+            </h2>
+
+            <div class="grid grid-cols-4 gap-6">
+
+                <article class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3">1. elige tu ruta</h3>
+                    <p class="text-gray-600">escoge la ruta nocturna que mas te guste</p>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3">2. inscribete</h3>
+                    <p class="text-gray-600">realiza tu inscripcion para participar</p>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3">3. recoge tu equipo</h3>
+                    <p class="text-gray-600">recibe tu bicicleta y los elementos de seguridad</p>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3">4. rueda</h3>
+                    <p class="text-gray-600">disfruta la experiencia y recorre la ciudad</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="inscripcion" class="bg-blue-900 py-10">
+            <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-2">
+                        ¿listo para rodar?
+                    </h2>
+
+                    <p class="text-white">
+                        inscribete y disfruta nuestras rutas nocturnas
+                    </p>
+                </div>
+
+                <a href="#rutas" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block hover:bg-orange-600">
+            elegir mi ruta
         </a>
 
-        </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between gap-6">
 
-        <div class="bg-white rounded-lg shadow-md p-4 mb-6 hover:shadow-xl">
+            <div>
+                <h3 class="text-xl font-bold mb-3">rueda nocturna</h3>
+                <p>recorre medellin sobre ruedas</p>
+            </div>
 
-            <img src="../img/rutasrio.jpg" alt="ruta de los miradores de la ciudad" class="w-full h-48 object-cover rounded-lg">
+            <div>
+                <h3 class="font-bold mb-3">enlaces</h3>
+                <p><a href="#inicio">inicio</a></p>
+                <p><a href="#rutas">rutas</a></p>
+                <p><a href="#funciona">como funciona</a></p>
+            </div>
 
-            <p class="bg-yellow-100 text-yellow-800 rounded px-3 py-1 mt-4 inline-block">
-                nivel medio
-            </p>
-
-            <h3 class="text-xl font-bold mt-3 mb-3">miradores de la ciudad</h3>
-
-            <ul class="text-gray-700 space-y-2">
-                <li><span class="text-sm text-gray-500">distancia:</span> <strong>16 km</strong></li>
-                <li><span class="text-sm text-gray-500">duracion:</span> <strong>3 horas</strong></li>
-                <li><span class="text-sm text-gray-500">punto de encuentro:</span> <strong>sede de rueda libre</strong></li>
-            </ul>
-
-            <p class="text-2xl font-bold text-green-700 mt-4">$75.000</p>
-            <p class="text-gray-600 mt-2">
-                incluye bicicleta, casco, luces led, chaleco reflectivo y guia
-            </p>
-            <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 hover:bg-orange-600">
-            reservar ruta
-        </a>
-        </div>
-
-        <div class="bg-white rounded-lg shadow-md p-4 mb-6 hover:shadow-xl">
-
-            <img src="../img/rutapalmas.jpg" alt="ruta nocturna por las palmas" class="w-full h-48 object-cover rounded-lg">
-
-            <p class="bg-red-100 text-red-800 rounded px-3 py-1 mt-4 inline-block">
-                nivel dificil
-            </p>
-
-            <h3 class="text-xl font-bold mt-3 mb-3">luna en las palmas</h3>
-
-            <li><span class="text-sm text-gray-500">distancia:</span> <strong>22 km</strong></li>
-            <li><span class="text-sm text-gray-500">duracion:</span> <strong>3 horas y media</strong></li>
-            <li><span class="text-sm text-gray-500">punto de encuentro:</span> <strong>sede de rueda libre</strong></li>
-
-            <p class="text-2xl font-bold text-green-700 mt-4">$95.000</p>
-
-            <p class="text-gray-600 mt-2">
-                incluye bicicleta, casco, luces led, chaleco reflectivo y guia
-            </p>
-            <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 hover:bg-orange-600">
-            reservar ruta
-        </a>
+            <div>
+                <h3 class="font-bold mb-3">contacto</h3>
+                <p>hola@ruedalibre.example</p>
+                <p>medellin, colombia</p>
+            </div>
 
         </div>
-
-
-    </section>
-
-    </section>
-
+    </footer>
 </body>
 
 </html>

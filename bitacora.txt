@@ -193,4 +193,8 @@ y dos campos de formulario para correo y celular agregue etiquetas a los campos 
 y role status en la alerta de exito utilice tailwind cli para generar los estilos en output.css y revise que los cambios se procesaran correctamente al guardar el archivo tambien defini las reglas del kit manteniendo los mismos
 bordes redondeados espacios similares y los colores principales del proyecto como azul oscuro naranja verde y gris para que todos los componentes tuvieran una apariencia consistente
 
-mini reto 5:
+mini reto 5: trabaje en la construccion de la landing page de rueda nocturna utilizando tailwind css organice el encabezado con el logo los enlaces y el boton de inscripcion tambien agregue la presentacion principal las tres tarjetas de rutas
+la seccion de como funciona con cuatro pasos la franja de inscripcion y el pie de pagina utilice flexbox para organizar el encabezado la franja de inscripcion y los tres bloques del pie de pagina tambien utilice grid para distribuir las tres tarjetas
+de rutas en tres columnas y los cuatro pasos en una fila agregue enlaces internos para navegar entre las secciones y organice el contenido utilizando contenedores con el mismo ancho y espaciado tambien revise que las imagenes los botones y los enlaces funcionaran correctamente en el navegador
+
+mini reto 6:

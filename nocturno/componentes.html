@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kit de componentes - rueda nocturna</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 p-6">
+
+    <main class="max-w-6xl mx-auto">
+
+        <h1 class="text-3xl font-bold text-blue-900 text-center mb-8">
+            kit de componentes
+        </h1>
+        <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">
+                botones
+            </h2>
+
+            <div class="flex flex-wrap gap-4">
+
+                <button class="bg-orange-500 text-blue-900 px-5 py-2 rounded shadow hover:bg-orange-600 focus:ring-4 focus:ring-orange-300">
+            boton principal
+        </button>
+
+                <button class="bg-blue-900 text-white px-5 py-2 rounded shadow hover:bg-blue-700 focus:ring-4 focus:ring-blue-300">
+            boton secundario
+        </button>
+
+                <button class="border-2 border-blue-900 text-blue-900 px-5 py-2 rounded hover:bg-blue-900 hover:text-white focus:ring-4 focus:ring-blue-300">
+            boton de contorno
+        </button>
+
+            </div>
+
+        </section>
+        <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">
+                tarjeta
+            </h2>
+
+            <div class="bg-white rounded-lg shadow-md p-4 max-w-sm hover:shadow-xl">
+
+                <img src="../img/rutabarrios.jpg" alt="ruta por los barrios de la ciudad" class="w-full h-48 object-cover rounded-lg">
+
+                <p class="bg-green-100 text-green-800 rounded px-3 py-1 mt-4 inline-block">
+                    nivel facil
+                </p>
+
+                <h3 class="text-xl font-bold mt-3 mb-3">
+                    luces del centro
+                </h3>
+
+                <ul class="text-gray-700 space-y-2">
+                    <li><span class="text-sm text-gray-500">distancia:</span> <strong>10 km</strong></li>
+                    <li><span class="text-sm text-gray-500">duracion:</span> <strong>2 horas</strong></li>
+                    <li><span class="text-sm text-gray-500">punto de encuentro:</span> <strong>sede de rueda libre</strong></li>
+                </ul>
+
+                <p class="text-2xl font-bold text-green-700 mt-4">$55.000</p>
+
+                <p class="text-gray-600 mt-2">
+                    incluye bicicleta, casco, luces led, chaleco reflectivo y guia
+                </p>
+
+                <a href="#" class="bg-orange-500 text-blue-900 font-bold px-5 py-2 rounded inline-block mt-4 shadow hover:bg-orange-600 focus:ring-4 focus:ring-orange-300">
+            reservar ruta
+        </a>
+            </div>
+
+        </section>
+        <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">
+                alertas
+            </h2>
+
+            <div class="bg-blue-100 border-l-4 border-blue-600 p-4 rounded mb-4">
+                <h3 class="font-bold text-blue-900">informacion</h3>
+                <p class="text-blue-800">
+                    recuerda llegar 15 minutos antes de iniciar la ruta
+                </p>
+            </div>
+
+            <div class="bg-green-100 border-l-4 border-green-600 p-4 rounded mb-4" role="status">
+                <h3 class="font-bold text-green-900">exito</h3>
+                <p class="text-green-800">
+                    tu reserva se ha realizado correctamente
+                </p>
+            </div>
+
+            <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded">
+                <h3 class="font-bold text-yellow-900">advertencia</h3>
+                <p class="text-yellow-800">
+                    revisa las condiciones del clima antes de salir
+                </p>
+            </div>
+        </section>
+        <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">
+                campos de formulario
+            </h2>
+
+            <div class="mb-4">
+
+                <label for="correo" class="block text-gray-700 font-bold mb-2">
+            correo electronico
+        </label>
+
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" class="w-full border border-gray-300 rounded p-3 focus:outline-none focus:ring-4 focus:ring-orange-300">
+
+                <p class="text-sm text-gray-500 mt-2">
+                    escribe un correo electronico valido
+                </p>
+
+            </div>
+
+            <div class="mb-4">
+
+                <label for="celular" class="block text-gray-700 font-bold mb-2">
+            numero de celular
+        </label>
+
+                <input type="tel" id="celular" name="celular" placeholder="300 000 0000" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-4 focus:ring-orange-300">
+
+                <p class="text-sm text-gray-500 mt-2">
+                    escribe tu numero de contacto
+                </p>
+
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

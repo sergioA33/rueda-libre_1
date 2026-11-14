@@ -170,7 +170,7 @@ capturas del proyecto
 - antes: img/capturas/antes.jpg
 - despues: img/capturas/despues.png
 
-------semana 3-------------
+------semana tres -------------
 mini reto 1:se creo la carpeta nocturna y el archivo prototipo.html para construir la seccion principal de la campaña rueda nocturna
 se utilizo tailwind mediante el play cdn y sus clases para agregar colores, espacios, tamaños y estilos de texto en la semana 2 se construyo el boton con bootstrap utilizando clases
 como btn y btn-warning. en este mini reto se construyo el enlace inscribete con tailwind utilizando clases como bg-orange-500, px-6, py-3 y font-bold
@@ -188,4 +188,9 @@ marcada al pasar el mouse al principio tuve que revisar varias veces las instruc
 y que las tarjetas se adaptaran a diferentes tamaños de pantalla tambien revise los botones con la tecla tab y comprobe que se pudieran seleccionar finalmente corregi algunos datos de las rutas para que coincidieran 
 con la informacion indicada en el reto
 
-mini reto 4:
+mini reto 4:trabaje en la creacion de una pagina llamada componentes.html donde reuni los componentes de los mini retos anteriores agregue los tres botones una tarjeta tres alertas de informacion exito y advertencia
+y dos campos de formulario para correo y celular agregue etiquetas a los campos textos de ejemplo y mensajes de ayuda tambien utilice efectos de focus para identificar cuando se selecciona un elemento con el teclado 
+y role status en la alerta de exito utilice tailwind cli para generar los estilos en output.css y revise que los cambios se procesaran correctamente al guardar el archivo tambien defini las reglas del kit manteniendo los mismos
+bordes redondeados espacios similares y los colores principales del proyecto como azul oscuro naranja verde y gris para que todos los componentes tuvieran una apariencia consistente
+
+mini reto 5:

@@ -178,4 +178,14 @@ la diferencia es que bootstrap ofrece componentes y estilos ya preparados, mient
 el prototipo se visualizo correctamente en el navegador
 
 mini reto 2: trabaje en el mini reto 2 hice una prueba de tailwind en un archivo aparte para no tocar mi index principal enlace el css que genero el programa puse un texto de prueba con un color de tailwind lo mire
-en pantallas de varios tamaños y si se ve bien me demore un tiempo en entenderlo
+en pantallas de varios tamaños y si se ve bien me demore un tiempo en entenderlo porque revise el modulo varias veces y mire un video en youtube para aprender mejor(tambien se me olvido hacer los tres botones de 
+prueba pero al revisar las instrucciones en el mini reto 3 me di cuenta de que faltaban y los hice agregue el boton principal secundario y de contorno con sus efectos al pasar el mouse y al usar la tecla tab)
+revise el archivo output.css y encontre la clase bg-orange-500 porque la estoy usando
+
+mini reto 3: trabaje en la creacion de las tarjetas de las rutas de rueda nocturna utilizando tailwind css hice tres tarjetas con sus respectivas imagenes, niveles de dificultad, nombres, distancias, duraciones, puntos de encuentro
+y precios tambien agregue la informacion de lo que incluye cada ruta utilice los estilos de tailwind para los colores, espacios, bordes, sombras y botones tambien agregue un efecto para que la sombra de las tarjetas se hiciera mas
+marcada al pasar el mouse al principio tuve que revisar varias veces las instrucciones para organizar las tarjetas y entender algunas clases de tailwind hice pruebas en el navegador para comprobar que las imagenes se vieran bien
+y que las tarjetas se adaptaran a diferentes tamaños de pantalla tambien revise los botones con la tecla tab y comprobe que se pudieran seleccionar finalmente corregi algunos datos de las rutas para que coincidieran 
+con la informacion indicada en el reto
+
+mini reto 4:

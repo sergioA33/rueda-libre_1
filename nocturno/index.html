@@ -171,23 +171,98 @@
             </div>
         </section>
 
-        <section id="inscripcion" class="bg-azul-noche py-8 sm:py-10 lg:py-12 ">
-            <div class="max-w-6xl mx-auto px-4 flex flex-col gap-5 text-center md:flex-row md:items-center md:justify-between md:px-6 md:text-left ">
+        <section id="inscripcion" class="bg-fondo dark:bg-azul-noche py-8 sm:py-10 lg:py-12">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6">
 
-                <div>
-                    <h2 class="text-2xl font-montserrat font-bold text-white mb-2 ">
-                        ¿listo para rodar?
-                    </h2>
+                <h2 class="text-2xl font-montserrat font-bold text-azul-noche dark:text-white text-center mb-6">
+                    inscripcion rueda nocturna
+                </h2>
 
-                    <p class=" text-white ">
-                        inscribete y disfruta nuestras rutas nocturnas
-                    </p>
-                </div>
+                <form class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
 
-                <a href="#rutas " class="btn-naranja ">
-                   elegir mi ruta
-                 </a>
+                    <fieldset class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <legend class="text-lg font-montserrat font-bold text-azul-noche dark:text-white mb-4">
+                            datos personales
+                        </legend>
 
+                        <div>
+                            <label for="nombre" class="block text-azul-noche dark:text-white mb-1">nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required minlength="3" class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        </div>
+
+                        <div>
+                            <label for="correo" class="block text-azul-noche dark:text-white mb-1">correo electronico</label>
+                            <input type="email" id="correo" name="correo" required class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        </div>
+
+                        <div>
+                            <label for="celular" class="block text-azul-noche dark:text-white mb-1">celular</label>
+                            <input type="tel" id="celular" name="celular" required pattern="3[0-9]{9}" title="ingresa 10 digitos y comienza por 3" class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                        <legend class="text-lg font-montserrat font-bold text-azul-noche dark:text-white mb-4">
+                            datos de la ruta
+                        </legend>
+
+                        <div>
+                            <label for="ruta" class="block text-azul-noche dark:text-white mb-1">elige tu ruta</label>
+                            <select id="ruta" name="ruta" required class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        <option value="">selecciona una ruta</option>
+                        <option value="luces">luces del centro</option>
+                        <option value="miradores">miradores de la ciudad</option>
+                        <option value="palmas">luna en las palmas</option>
+                    </select>
+                        </div>
+
+                        <div>
+                            <label for="dia" class="block text-azul-noche dark:text-white mb-1">dia de salida</label>
+                            <select id="dia" name="dia" required class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        <option value="">selecciona un dia</option>
+                        <option value="jueves">jueves</option>
+                        <option value="viernes">viernes</option>
+                        <option value="sabado">sabado</option>
+                    </select>
+                        </div>
+
+                        <div>
+                            <label for="acompanantes" class="block text-azul-noche dark:text-white mb-1">numero de acompanantes</label>
+                            <input type="number" id="acompanantes" name="acompanantes" required min="0" max="3" class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        </div>
+
+                        <div>
+                            <label for="nivel" class="block text-azul-noche dark:text-white mb-1">nivel de experiencia</label>
+                            <select id="nivel" name="nivel" required class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        <option value="">selecciona tu nivel</option>
+                        <option value="principiante">principiante</option>
+                        <option value="intermedio">intermedio</option>
+                        <option value="avanzado">avanzado</option>
+                    </select>
+                        </div>
+
+                        <div>
+                            <label for="bicicleta" class="block text-azul-noche dark:text-white mb-1">¿tienes bicicleta propia?</label>
+                            <select id="bicicleta" name="bicicleta" required class="w-full p-2 rounded border border-gray-300 dark:bg-azul-noche dark:text-white focus:ring-2 focus:ring-naranja">
+                        <option value="">selecciona una opcion</option>
+                        <option value="si">si</option>
+                        <option value="no">no</option>
+                    </select>
+                        </div>
+                    </fieldset>
+
+                    <div class="mt-6">
+                        <label class="flex items-center gap-2 text-azul-noche dark:text-white">
+                    <input type="checkbox" name="condiciones" required>
+                    acepto las condiciones de inscripcion
+                </label>
+                    </div>
+
+                    <button type="submit" class="btn-naranja mt-6">
+                enviar inscripcion
+            </button>
+
+                </form>
             </div>
         </section>
     </main>

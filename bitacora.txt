@@ -201,5 +201,11 @@ mini reto 6:trabaje en la adaptacion de la landing page de rueda nocturna para q
 pequeñas. utilice las clases responsive de tailwind para organizar el encabezado, las tarjetas de rutas y los pasos de como funciona. tambien ajuste los tamaños de texto y los espacios entre las secciones. en celulares deje ocultos los enlaces del menu y mantuve visible el boton de inscripcion. finalmente
 hice pruebas en el navegador con anchos de 360, 768, 1024 y 1280 px y comprobe que el contenido se acomodara correctamente en cada tamaño 
 
-mini reto 7:trabaje en la personalizacion de tailwind para rueda nocturna. agregue los colores de la marca y las fuentes montserrat y open sans. cambie los colores genericos por los colores del proyecto y agregue el modo oscuro usando las clases dark.
-tambien revise que los textos se vieran bien y que hubiera buen contraste entre los colores. finalmente probe la pagina en modo claro y oscuro y comprobe que todo funcionara correctamente.
+mini reto 7:trabaje en la personalizacion de tailwind para rueda nocturna. agregue los colores de la marca y las fuentes montserrat y open sans. cambie los colores genericos por los colores del proyecto y agregue el modo oscuro usando las clases dark
+tambien revise que los textos se vieran bien y que hubiera buen contraste entre los colores. finalmente probe la pagina en modo claro y oscuro y comprobe que todo funcionara correctamente
+
+mini reto 8: en este mini reto organice las clases de tailwind agrupando primero las de distribucion y tamaño, despues las de espaciado, colores y efectos. tambien deje las tarjetas con el mismo orden de clases y cree la clase btn-naranja usando @apply para reutilizar los estilos en los botones,
+despues medi los archivos css: tailwind dio 16798 bytes y bootstrap 33,8 kB. revise el javascript de bootstrap, pero no encontre ningun archivo cargado. al comparar los dos frameworks, bootstrap me parecio mas facil para comenzar, pero tailwind permite personalizar mejor los estilos. para rueda libre 
+recomiendo tailwind porque pude adaptar el diseño a mi proyecto y el css generado fue mas pequeño
+
+mini reto 9:

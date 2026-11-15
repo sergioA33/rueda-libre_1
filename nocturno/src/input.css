@@ -10,3 +10,12 @@
     --font-montserrat: "Montserrat", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
 }
+
+@layer components {
+    .btn-naranja {
+        @apply bg-naranja text-azul-noche font-bold px-5 py-2 rounded inline-block;
+    }
+    .btn-naranja:hover {
+        @apply bg-amarillo-farol;
+    }
+}

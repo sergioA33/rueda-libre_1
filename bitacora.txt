@@ -201,4 +201,5 @@ mini reto 6:trabaje en la adaptacion de la landing page de rueda nocturna para q
 pequeñas. utilice las clases responsive de tailwind para organizar el encabezado, las tarjetas de rutas y los pasos de como funciona. tambien ajuste los tamaños de texto y los espacios entre las secciones. en celulares deje ocultos los enlaces del menu y mantuve visible el boton de inscripcion. finalmente
 hice pruebas en el navegador con anchos de 360, 768, 1024 y 1280 px y comprobe que el contenido se acomodara correctamente en cada tamaño 
 
-mini reto 7:
+mini reto 7:trabaje en la personalizacion de tailwind para rueda nocturna. agregue los colores de la marca y las fuentes montserrat y open sans. cambie los colores genericos por los colores del proyecto y agregue el modo oscuro usando las clases dark.
+tambien revise que los textos se vieran bien y que hubiera buen contraste entre los colores. finalmente probe la pagina en modo claro y oscuro y comprobe que todo funcionara correctamente.

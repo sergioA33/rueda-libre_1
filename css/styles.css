@@ -394,3 +394,31 @@ td {
     color: white;
     padding: var(--espacio-3);
 }
+
+#menu a {
+    color: var(--gris-asfalto);
+}
+
+#menu a.activo {
+    color: #FFD166;
+    font-weight: 600;
+}
+
+.btn-reservar {
+    background-color: var(--verde-ruta);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-reservar:hover {
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.btn-reservar:focus {
+    outline: 3px solid var(--naranja);
+    outline-offset: 3px;
+}

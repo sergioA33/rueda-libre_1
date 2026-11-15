@@ -212,4 +212,8 @@ mini reto 9: en este mini reto cree el formulario de inscripcion para rueda noct
 y comenzara por 3, y los acompanantes estuvieran entre 0 y 3, tambien organice los campos en dos columnas para pantallas grandes y agregue los estilos para el modo oscuro. probe el formulario vacio, con datos incorrectos y completo. tambien comprobe que se pudiera recorrer usando solamente el teclado
 las pruebas funcionaron correctamente,el formulario realiza el envio normal del navegador, pero todavia no esta conectado a un servicio para guardar las inscripciones
 
-mini reto 10 :
+mini reto 10 :en este mini reto trabaje en los estilos del menu, los enlaces y los campos del formulario. agregue la clase activo para identificar la pagina actual y use los efectos hover y focus para que los enlaces cambiaran al pasar el cursor y mostraran un borde al seleccionarlos,
+tambien tuve que revisar un problema de especificidad en css. al principio el color de la clase activo aparecia tachado porque la regla #menu a tenia mas prioridad que .activo. lo solucione usando un selector mas especifico sin necesidad de utilizar important,cree una clase para los
+botones de reservar y agregue sus efectos al pasar el cursor y al seleccionarlos. por ultimo probe la navegacion con tab en las tres paginas y revise que los campos del formulario mostraran el borde de enfoque. las pruebas funcionaron correctamente
+
+mini reto 11:

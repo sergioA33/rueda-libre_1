@@ -216,4 +216,9 @@ mini reto 10 :en este mini reto trabaje en los estilos del menu, los enlaces y l
 tambien tuve que revisar un problema de especificidad en css. al principio el color de la clase activo aparecia tachado porque la regla #menu a tenia mas prioridad que .activo. lo solucione usando un selector mas especifico sin necesidad de utilizar important,cree una clase para los
 botones de reservar y agregue sus efectos al pasar el cursor y al seleccionarlos. por ultimo probe la navegacion con tab en las tres paginas y revise que los campos del formulario mostraran el borde de enfoque. las pruebas funcionaron correctamente
 
-mini reto 11:
+mini reto 11:en este mini reto trabaje en el modelo de caja de css. configure box-sizing para que los elementos incluyeran el padding y los bordes dentro de su tamaño. tambien ajuste el ancho del contenido principal y centre la pagina usando max-width y margenes automaticos
+organice las tarjetas de servicios agregando espacios internos, bordes y esquinas redondeadas. ajuste las imagenes para que ocuparan el ancho de las tarjetas. tambien mejore las tablas, los campos del formulario y los botones usando las variables de espaciado que ya tenia en 
+el proyecto,tambien revise las medidas de una tarjeta en devtools. como ejemplo, con content-box el ancho total podia ser de 400 px y con border-box de 352 px, porque el padding y los bordes se incluyen dentro del ancho. por ultimo revise el menu para que apareciera en fila en
+pantallas grandes y ajuste la altura minima de la portada usando vh.
+
+mini reto 12:

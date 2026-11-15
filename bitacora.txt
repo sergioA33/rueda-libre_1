@@ -221,4 +221,8 @@ organice las tarjetas de servicios agregando espacios internos, bordes y esquina
 el proyecto,tambien revise las medidas de una tarjeta en devtools. como ejemplo, con content-box el ancho total podia ser de 400 px y con border-box de 352 px, porque el padding y los bordes se incluyen dentro del ancho. por ultimo revise el menu para que apareciera en fila en
 pantallas grandes y ajuste la altura minima de la portada usando vh.
 
-mini reto 12:
+mini reto 12 :en este mini reto termine los detalles finales de rueda libre. agregue la etiqueta de nuevo al servicio de bicicletas electricas y coloque el enlace de whatsapp en las tres paginas para facilitar el contacto. tambien organice el archivo styles.css, agrupando los
+estilos por secciones y eliminando reglas repetidas. revise que el boton de whatsapp no tapara el contenido de la pagina y que los estilos se mantuvieran organizados,por ultimo revise la pagina en el navegador y probe la navegacion con la tecla tab para comprobar el enfoque de
+los enlaces y botones. con estos cambios termine los ajustes visuales y de navegacion del proyecto rueda libre.
+
+-------finaliza el proyecto rueda libre ----------

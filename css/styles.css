@@ -1,3 +1,7 @@
+/* =========================
+   1. VARIABLES
+========================= */
+
 :root {
     --azul-oscuro: #14213D;
     --gris-asfalto: #5B6470;
@@ -15,6 +19,11 @@
     --bs-link-color-rgb: 30, 122, 79;
     --bs-border-radius: 0.5rem;
 }
+
+
+/* =========================
+   2. ESTILOS GENERALES
+========================= */
 
 * {
     box-sizing: border-box;
@@ -34,6 +43,27 @@ h2,
 h3 {
     color: var(--azul-oscuro);
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--verde-ruta);
+}
+
+main {
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: var(--espacio-2);
+}
+
+
+/* =========================
+   3. ENCABEZADO Y NAVEGACION
+========================= */
 
 header {
     background-color: var(--azul-oscuro);
@@ -69,7 +99,7 @@ nav {
 }
 
 #menu a {
-    color: white;
+    color: var(--gris-asfalto);
     display: block;
     padding: var(--espacio-1);
     text-decoration: none;
@@ -82,7 +112,7 @@ nav {
 }
 
 #menu a.activo {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #menu a:focus {
@@ -91,17 +121,28 @@ nav {
     outline-offset: 4px;
 }
 
-main {
-    width: 100%;
-    max-width: 70rem;
-    margin: 0 auto;
-    padding: var(--espacio-2);
+
+/* =========================
+   4. PORTADA Y TITULOS
+========================= */
+
+.portada-marca {
+    background-color: var(--fondo);
+    border-radius: var(--bs-border-radius);
+    padding: var(--espacio-4);
+    min-height: 20vh;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.titulo-seccion {
+    color: var(--azul-oscuro);
+    border-bottom: 3px solid var(--verde-ruta);
+    padding-bottom: var(--espacio-1);
 }
+
+
+/* =========================
+   5. TARJETAS Y SERVICIOS
+========================= */
 
 .servicios {
     display: flex;
@@ -146,9 +187,10 @@ img {
     align-self: flex-start;
 }
 
-a {
-    color: var(--verde-ruta);
-}
+
+/* =========================
+   6. BOTONES
+========================= */
 
 button {
     background-color: var(--verde-ruta);
@@ -163,12 +205,66 @@ button:hover {
     background-color: var(--azul-oscuro);
 }
 
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-bg: #1E7A4F;
+    --bs-btn-border-color: #1E7A4F;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #17613F;
+    --bs-btn-hover-border-color: #17613F;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #124C32;
+    --bs-btn-active-border-color: #124C32;
+}
+
+.btn-naranja {
+    background-color: #F39A2B;
+    border-color: #F39A2B;
+    color: #14213D;
+}
+
+.btn-naranja:hover {
+    background-color: #D98216;
+    border-color: #D98216;
+    color: #14213D;
+}
+
+.btn-naranja:active {
+    background-color: #BF7010;
+    border-color: #BF7010;
+    color: #14213D;
+}
+
+.btn-reservar {
+    background-color: var(--verde-ruta);
+    color: white;
+    padding: var(--espacio-2) var(--espacio-3);
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-reservar:hover {
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.btn-reservar:focus {
+    outline: 3px solid var(--naranja);
+    outline-offset: 3px;
+}
+
+
+/* =========================
+   7. TABLAS
+========================= */
+
 table {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
     margin: var(--espacio-3) 0;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 th,
@@ -188,6 +284,11 @@ caption {
     padding: var(--espacio-1);
     font-weight: bold;
 }
+
+
+/* =========================
+   8. FORMULARIOS
+========================= */
 
 label {
     display: block;
@@ -222,6 +323,11 @@ input[type="checkbox"]+label {
     margin-bottom: var(--espacio-2);
 }
 
+
+/* =========================
+   9. ENFOQUE DEL TECLADO
+========================= */
+
 a:focus,
 button:focus,
 input:focus,
@@ -230,6 +336,11 @@ select:focus {
     outline: 3px solid var(--naranja);
     outline-offset: 2px;
 }
+
+
+/* =========================
+   10. BOTON WHATSAPP
+========================= */
 
 .whatsapp {
     position: fixed;
@@ -253,6 +364,11 @@ select:focus {
     outline: 3px solid var(--naranja);
     outline-offset: 3px;
 }
+
+
+/* =========================
+   11. PIE DE PAGINA
+========================= */
 
 footer {
     background-color: var(--azul-oscuro);
@@ -278,15 +394,39 @@ footer a {
 }
 
 .footer-bloque {
+    flex: 1 1 12rem;
     width: 100%;
+}
+
+.pie-marca {
+    background-color: var(--azul-oscuro);
+    color: white;
+    padding: var(--espacio-3);
 }
 
 .contacto {
     min-width: 0;
-    padding: 1.5rem;
-    border: 1px solid #5B6470;
+    padding: var(--espacio-3);
+    border: 1px solid var(--gris-asfalto);
     border-radius: 8px;
     background-color: white;
+}
+
+
+/* =========================
+   12. DISEÑO RESPONSIVE
+========================= */
+
+@media (min-width: 400px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .footer-bloque {
+        width: auto;
+    }
 }
 
 @media (min-width: 768px) {
@@ -308,35 +448,6 @@ footer a {
     }
 }
 
-footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-@media (min-width: 400px) {
-    footer {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        text-align: left;
-    }
-}
-
-.footer-bloque {
-    flex: 1 1 12rem;
-    width: auto;
-}
-
-table {
-    font-size: 13px;
-}
-
-th,
-td {
-    padding: var(--espacio-1);
-}
-
 @media (min-width: 1200px) {
     table {
         font-size: 14px;
@@ -345,81 +456,4 @@ td {
     td {
         padding: var(--espacio-2);
     }
-}
-
-.btn-primary {
-    --bs-btn-color: white;
-    --bs-btn-bg: #1E7A4F;
-    --bs-btn-border-color: #1E7A4F;
-    --bs-btn-hover-color: white;
-    --bs-btn-hover-bg: #17613F;
-    --bs-btn-hover-border-color: #17613F;
-    --bs-btn-active-color: white;
-    --bs-btn-active-bg: #124C32;
-    --bs-btn-active-border-color: #124C32;
-}
-
-.btn-naranja {
-    background-color: #F39A2B;
-    border-color: #F39A2B;
-    color: #14213D;
-}
-
-.btn-naranja:hover {
-    background-color: #D98216;
-    border-color: #D98216;
-    color: #14213D;
-}
-
-.btn-naranja:active {
-    background-color: #BF7010;
-    border-color: #BF7010;
-    color: #14213D;
-}
-
-.portada-marca {
-    background-color: var(--fondo);
-    border-radius: var(--bs-border-radius);
-    padding: var(--espacio-4);
-    min-height: 20vh;
-}
-
-.titulo-seccion {
-    color: var(--azul-oscuro);
-    border-bottom: 3px solid var(--verde-ruta);
-    padding-bottom: var(--espacio-1);
-}
-
-.pie-marca {
-    background-color: var(--azul-oscuro);
-    color: white;
-    padding: var(--espacio-3);
-}
-
-#menu a {
-    color: var(--gris-asfalto);
-}
-
-#menu a.activo {
-    color: #FFD166;
-    font-weight: 600;
-}
-
-.btn-reservar {
-    background-color: var(--verde-ruta);
-    color: white;
-    padding: var(--espacio-2) var(--espacio-3);
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.btn-reservar:hover {
-    background-color: var(--azul-oscuro);
-    color: white;
-}
-
-.btn-reservar:focus {
-    outline: 3px solid var(--naranja);
-    outline-offset: 3px;
 }
